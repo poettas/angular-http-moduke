@@ -8,7 +8,9 @@ import { UserService } from './service/user.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
+  users: User[] = [];
   title = 'angular-http-module';
+
   private user: any = {
     id: 3,
     name: 'Osweald Mow',
@@ -24,11 +26,14 @@ export class AppComponent implements OnInit {
     //this.onCreateUser();
     //this.onUpdateUser();
     //this.onUpdateSingleLineUser();
-    this.onDeleteUser();
+    //this.onDeleteUser();
   }
   onGetUsers(): void {
     this.userServie.getUsers().subscribe(
-      (response) => console.table(response),
+      (response) => {
+        console.log(response);
+        this.users = response;
+      },
       (error: any) => console.log(error),
       () => console.log('Done getting users')
     );
