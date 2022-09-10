@@ -1,0 +1,23 @@
+{
+  "marquee.widgets.npm-stats.packageNames": ["angular-http-module"],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ff0625",
+    "activityBar.background": "#ff0625",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#1cdf00",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#ff0625",
+    "statusBar.background": "#d2001a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#ff0625",
+    "statusBarItem.remoteBackground": "#d2001a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#d2001a",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#d2001a99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#D2001A"
+}
